@@ -1,0 +1,1141 @@
+[
+  {
+    "type": "A",
+    "question": "Što je otpremnina i kada radnik na nju ima pravo?",
+    "expected_article": "126",
+    "retrieved_articles": [
+      "126",
+      "7",
+      "224",
+      "119",
+      "226"
+    ],
+    "answers": {
+      "gemma3:12b": [
+        {
+          "run": 1,
+          "answer": "Radnik kojem poslodavac otkazuje nakon dvije godine neprekidnog rada, osim ako se otkazuje zbog razloga uvjetovanih ponašanjem radnika, ima pravo na otpremninu (čl. 126. st. 1. Zakona o radu).\n\nOtpremnina se određuje s obzirom na dužinu prethodnog neprekidnog trajanja radnog odnosa s poslodavcem i ne smije biti manja od jedne trećine prosječne mjesečne plaće koju je radnik ostvario u tri mjeseca prije prestanka ugovora o radu, za svaku navršenu godinu rada kod istog poslodavca (čl. 126. st. 2. Zakona o radu). Ukupan iznos otpremnine ne može biti veći od šest prosječnih mjesečnih plaća koje je radnik ostvario u tri mjeseca prije prestanka ugovora o radu, ako zakonom, kolektivnim ugovorom, pravilnikom o radu ili ugovorom o radu nije određeno drukčije (čl. 126. st. 3. Zakona o radu).",
+          "seconds": 64.1,
+          "citations": [
+            "126"
+          ],
+          "invalid_citations": []
+        },
+        {
+          "run": 2,
+          "answer": "Radnik kojem poslodavac otkazuje nakon dvije godine neprekidnog rada, osim ako se otkazuje zbog razloga uvjetovanih ponašanjem radnika, ima pravo na otpremninu (čl. 126. st. 1. Zakona o radu). Otpremnina se određuje s obzirom na dužinu prethodnog neprekidnog trajanja radnog odnosa s poslodavcem (čl. 126. st. 1. Zakona o radu).",
+          "seconds": 14.3,
+          "citations": [
+            "126"
+          ],
+          "invalid_citations": []
+        }
+      ],
+      "qwen3:8b": [
+        {
+          "run": 1,
+          "answer": "Otpremnina je naknada koju radnik ima pravo primati u slučaju otkaza ugovora o radu nakon dvije godine neprekidnog rada, osim ako se otkazuje zbog razloga uvjetovanih ponašanjem radnika (čl. 126. st. 1. Zakona o radu). Iznos otpremnine određuje se s obzirom na dužinu prethodnog neprekidnog trajanja radnog odnosa s tim poslodavcem, te ne smije biti manji od jedne trećine prosječne mjesečne plaće koju je radnik ostvario u tri mjeseca prije prestanka ugovora o radu, za svaku navršenu godinu rada kod toga poslodavca (čl. 126. st. 2.). Ukupan iznos otpremnine ne može biti veći od šest prosječnih mjesečnih plaća koje je radnik ostvario u tri mjeseca prije prestanka ugovora o radu, osim ako nije određeno drugačije zakonom, kolektivnim ugovorom, pravilnikom o radu ili ugovorom o radu (čl. 126. st. 3.).",
+          "seconds": 83.3,
+          "citations": [
+            "126"
+          ],
+          "invalid_citations": []
+        },
+        {
+          "run": 2,
+          "answer": "Otpremnina je naknada koju radnik ima pravo primati ako mu poslodavac otkaze nakon dvije godine neprekidnog rada, osim ako se otkazuje zbog razloga uvjetovanih ponašanjem radnika (čl. 126. st. 1. Zakona o radu). Iznos otpremnine određuje se s obzirom na dužinu prethodnog neprekidnog trajanja radnog odnosa s tim poslodavcem. Otpremnina se ne smije ugovoriti u iznosu manjem od jedne trećine prosječne mjesečne plaće koju je radnik ostvario u tri mjeseca prije prestanka ugovora o radu, za svaku navršenu godinu rada kod toga poslodavca (čl. 126. st. 2.). Ukupan iznos otpremnine ne može biti veći od šest prosječnih mjesečnih plaća koje je radnik ostvario u tri mjeseca prije prestanka ugovora o radu, osim ako je to određeno drugim propisima (čl. 126. st. 3.).",
+          "seconds": 50.1,
+          "citations": [
+            "126"
+          ],
+          "invalid_citations": []
+        }
+      ],
+      "mistral-nemo": [
+        {
+          "run": 1,
+          "answer": "Otpremnina je novčana naknada koju poslodavac mora isplatiti radniku nakon što mu je otkazano ugovor o radu bez razloga uvjetovanog ponašanjem radnika ili zbog razloga koji nisu u suprotnosti s ovim Zakonom. Radnik ima pravo na otpremninu ako je neprekidno radio za istoga poslodavca najmanje šest mjeseci (čl. 126. st. 1. Zakona o radu). Otpremnina se određuje s obzirom na dužinu prethodnog neprekidnog trajanja radnog odnosa s tim poslodavcem, a ne smije biti u iznosu manjem od jedne trećine prosječne mjesečne plaće koju je radnik ostvario u tri mjeseca prije prestanka ugovora o radu za svaku navršenu godinu rada kod toga poslodavca (čl. 126. st. 2. Zakona o radu). Ukupan iznos otpremnine ne može biti veći od šest prosječnih mjesečnih plaća koje je radnik ostvario u tri mjeseca prije prestanka ugovora o radu (čl. 126. st. 3. Zakona o radu).",
+          "seconds": 56.6,
+          "citations": [
+            "126"
+          ],
+          "invalid_citations": []
+        },
+        {
+          "run": 2,
+          "answer": "Otpremnina je novčana naknada koju poslodavac mora isplatiti radniku nakon što mu je otkazano ugovor o radu bez razloga uvjetovanog ponašanjem radnika ili zbog razloga koji nisu u suprotnosti s ovim Zakonom. Radnik ima pravo na otpremninu ako je neprekidno radio za istoga poslodavca najmanje šest mjeseci (čl. 126. st. 1. Zakona o radu). Otpremnina se određuje s obzirom na dužinu prethodnog neprekidnog trajanja radnog odnosa s tim poslodavcem, a ne smije biti u iznosu manjem od jedne trećine prosječne mjesečne plaće koju je radnik ostvario u tri mjeseca prije prestanka ugovora o radu za svaku navršenu godinu rada kod toga poslodavca (čl. 126. st. 2. Zakona o radu). Ukupan iznos otpremnine ne može biti veći od šest prosječnih mjesečnih plaća koje je radnik ostvario u tri mjeseca prije prestanka ugovora o radu (čl. 126. st. 3. Zakona o radu).",
+          "seconds": 32.0,
+          "citations": [
+            "126"
+          ],
+          "invalid_citations": []
+        }
+      ]
+    }
+  },
+  {
+    "type": "A",
+    "question": "Što je izvanredni otkaz ugovora o radu?",
+    "expected_article": "116",
+    "retrieved_articles": [
+      "150",
+      "104",
+      "116",
+      "47",
+      "115"
+    ],
+    "answers": {
+      "gemma3:12b": [
+        {
+          "run": 1,
+          "answer": "U skladu s odredbama Zakona o radu, izvanredni otkaz ugovora o radu je moguć ako zbog osobito teške povrede obveze iz radnog odnosa ili neke druge osobito važne činjenice, uz uvažavanje svih okolnosti i interesa obiju ugovornih stranaka, nastavak radnog odnosa nije moguć (čl. 116. st. 1.). Stranka ugovora o radu koja izvanredno otkaže ugovor može tražiti naknadu štete zbog neizvršenja ugovorom o radu preuzetih obveza (čl. 116. st. 3.). Ugovor o radu se izvanredno otkazuje u roku od petnaest dana od dana saznanja za činjenicu na kojoj se temelji izvanredni otkaz (čl. 116. st. 2.).",
+          "seconds": 41.3,
+          "citations": [
+            "116"
+          ],
+          "invalid_citations": []
+        },
+        {
+          "run": 2,
+          "answer": "Ugovor o radu može se izvanredno otkazati samo u roku od petnaest dana od dana saznanja za činjenicu na kojoj se izvanredni otkaz temelji (čl. 116. st. 2. Zakona o radu). Poslodavac i radnik imaju opravdani razlog za izvanredni otkaz ako zbog osobito teške povrede obveze iz radnog odnosa ili neke druge osobito važne činjenice, uz uvažavanje svih okolnosti i interesa obiju ugovornih stranaka, nastavak radnog odnosa nije moguć (čl. 116. st. 1. Zakona o radu).",
+          "seconds": 18.3,
+          "citations": [
+            "116"
+          ],
+          "invalid_citations": []
+        }
+      ],
+      "qwen3:8b": [
+        {
+          "run": 1,
+          "answer": "Odgovor: Izvanredni otkaz ugovora o radu je otkaz koji se može donijeti bez poštovanja propisanog ili ugovorenog otkaznog roka, uz opravdani razlog. Prema članku 116. stavak 1. Zakona o radu, izvanredni otkaz je dozvoljen ako postoji osobito teška povrea obveza iz radnog odnosa ili neka druga osobito važna činjenica, uz uvažavanje interesa obiju stranaka, te ako nastavak radnog odnosa nije moguć. Otkaz mora biti donesen unutar 15 dana od dana saznanja za činjenicu koja je osnova za otkaz (čl. 116. stavak 2.). Dodatno, izvanredni otkaz može se donijeti i u slučaju teškog povrijeđenja obveza iz ugovora o radu, uz mogućnost traženja naknade štete (čl. 113. stavak 3.). U slučaju izvanrednog otkaza ugovora o radu za privremeno obavljanje poslova, agencija mora obavijestiti korisnika pismeno unutar 15 dana od dana saznanja za činjenicu (čl. 47. stavak 2.).",
+          "seconds": 66.1,
+          "citations": [
+            "47",
+            "113",
+            "116"
+          ],
+          "invalid_citations": [
+            "113"
+          ]
+        },
+        {
+          "run": 2,
+          "answer": "Odgovor: Izvanredni otkaz ugovora o radu je otkaz koji se može donijeti bez poštovanja propisanog ili ugovorenog otkaznog roka, uz opravdani razlog. Prema članku 116. stavak 1. Zakona o radu, izvanredni otkaz je dozvoljen ako je nastala osobito teška povreda obveza iz radnog odnosa ili neka druga osobito važna činjenica, uz uvažavanje svih okolnosti i interesa obiju ugovornih stranaka, te ako nastavak radnog odnosa nije moguć. U takvim slučajevima, stranka koja izvanredno otkaže ima pravo tražiti naknadu štete. Dodatno, članak 115. stavak 1. navodi da izvanredni otkaz može biti donesen i za razloge kao što su gospodarski, tehnološki ili organizacijski razlozi, te kršenje obveza iz radnog odnosa. Rok za izvanredni otkaz teče od dana saznanja za činjenicu na kojoj se otkaz temelji, a u nekim slučajevima (npr. za ustupljenih radnika) je ograničen na 15 dana (čl. 116. stavak 2. i čl. 47. stavak 2.).",
+          "seconds": 55.2,
+          "citations": [
+            "47",
+            "115",
+            "116"
+          ],
+          "invalid_citations": []
+        }
+      ],
+      "mistral-nemo": [
+        {
+          "run": 1,
+          "answer": "Izvanredni otkaz ugovora o radu je otkazivanje ugovora o radu bez obveze poštivanja propisanog ili ugovorenog otkaznog roka. Ovo se može učiniti samo ako postoji opravdani razlog za takav otkaz, kao što su osobito teška povreda obveza iz radnog odnosa ili neka druga osobito važna činjenica (čl. 116. Zakona o radu).",
+          "seconds": 22.6,
+          "citations": [
+            "116"
+          ],
+          "invalid_citations": []
+        },
+        {
+          "run": 2,
+          "answer": "Izvanredni otkaz ugovora o radu je otkazivanje ugovora o radu bez obveze poštivanja propisanog ili ugovorenog otkaznog roka. Ovo se može učiniti ako zbog osobito teške povrede obveze iz radnog odnosa ili neke druge osobito važne činjenice, uz uvažavanje svih okolnosti i interesa obiju ugovornih stranaka, nastavak radnog odnosa nije moguć (čl. 116. st. 1. Zakona o radu). Međutim, izvanredni otkaz može se učiniti samo u roku od petnaest dana od dana saznanja za činjenicu na kojoj se izvanredni otkaz temelji (čl. 116. st. 2. Zakona o radu).",
+          "seconds": 19.2,
+          "citations": [
+            "116"
+          ],
+          "invalid_citations": []
+        }
+      ]
+    }
+  },
+  {
+    "type": "A",
+    "question": "Što je nepuno radno vrijeme?",
+    "expected_article": "62",
+    "retrieved_articles": [
+      "67",
+      "66",
+      "62",
+      "61",
+      "66"
+    ],
+    "answers": {
+      "gemma3:12b": [
+        {
+          "run": 1,
+          "answer": "Nepuno radno vrijeme je svako radno vrijeme kraće od punog radnog vremena (čl. 62. st. 1. Zakona o radu). Radnik ne može kod više poslodavaca raditi s ukupnim radnim vremenom dužim od četrdeset sati tjedno (čl. 62. st. 2. Zakona o radu).",
+          "seconds": 36.7,
+          "citations": [
+            "62"
+          ],
+          "invalid_citations": []
+        },
+        {
+          "run": 2,
+          "answer": "Nepuno radno vrijeme je svako radno vrijeme kraće od punog radnog vremena (čl. 62. st. 1. Zakona o radu). Radnik ne može kod više poslodavaca raditi s ukupnim radnim vremenom dužim od četrdeset sati tjedno (čl. 62. st. 2. Zakona o radu).",
+          "seconds": 10.7,
+          "citations": [
+            "62"
+          ],
+          "invalid_citations": []
+        }
+      ],
+      "qwen3:8b": [
+        {
+          "run": 1,
+          "answer": "Odgovor: Nepuno radno vrijeme radnika je svako radno vrijeme kraće od punog radnog vremena (čl. 62. st. 1. Zakona o radu). Radnik ne može kod više poslodavaca raditi s ukupnim radnim vremenom dužim od četrdeset sati tjedno (čl. 62. st. 2. Zakona o radu). Puno radno vrijeme ne može biti duže od četrdeset sati tjedno (čl. 61. st. 1. Zakona o radu).",
+          "seconds": 58.5,
+          "citations": [
+            "61",
+            "62"
+          ],
+          "invalid_citations": []
+        },
+        {
+          "run": 2,
+          "answer": "Odgovor: Nepuno radno vrijeme je svako radno vrijeme kraće od punog radnog vremena (čl. 62. st. 1. Zakona o radu). Prema zakonu, radnik ne može raditi s ukupnim radnim vremenom dužim od četrdeset sati tjedno (čl. 62. st. 2. Zakona o radu). Ako radnik radi u punom radnom vremenu, može sklopiti ugovor o radu s drugim poslodavcem za najviše osam sati tjedno (do 108 sati godišnje), uz pisanu suglasnost poslodavca (čl. 61. st. 3. Zakona o radu).",
+          "seconds": 48.2,
+          "citations": [
+            "61",
+            "62"
+          ],
+          "invalid_citations": []
+        }
+      ],
+      "mistral-nemo": [
+        {
+          "run": 1,
+          "answer": "Nepuno radno vrijeme je svako radno vrijeme kraće od punog radnog vremena (čl. 62. st. 1. Zakona o radu).",
+          "seconds": 22.4,
+          "citations": [
+            "62"
+          ],
+          "invalid_citations": []
+        },
+        {
+          "run": 2,
+          "answer": "Nepuno radno vrijeme je svako radno vrijeme kraće od punog radnog vremena. Radnik ne može kod više poslodavaca raditi s ukupnim radnim vremenom dužim od četrdeset sati tjedno (čl. 62. st. 1. i 2. Zakona o radu).",
+          "seconds": 8.5,
+          "citations": [
+            "62"
+          ],
+          "invalid_citations": []
+        }
+      ]
+    }
+  },
+  {
+    "type": "B",
+    "question": "Moram li raditi duže ako mi to poslodavac naredi?",
+    "expected_article": "65",
+    "retrieved_articles": [
+      "66",
+      "62",
+      "61",
+      "65",
+      "229"
+    ],
+    "answers": {
+      "gemma3:12b": [
+        {
+          "run": 1,
+          "answer": "U slučaju više sile, izvanrednog povećanja opsega poslova i u drugim sličnim slučajevima prijeke potrebe, radnik je na pisani zahtjev poslodavca dužan raditi duže od punog, odnosno nepunog radnog vremena (prekovremeni rad) (čl. 65. st. 1. Zakona o radu). Iznimno od toga, ako priroda prijeke potrebe onemogućava poslodavca da prije početka prekovremenog rada uruči radniku pisani zahtjev, usmeni zahtjev poslodavac je dužan pisano potvrditi u roku od sedam dana od dana kada je prekovremeni rad naložen (čl. 65. st. 2. Zakona o radu).",
+          "seconds": 44.4,
+          "citations": [
+            "65"
+          ],
+          "invalid_citations": []
+        },
+        {
+          "run": 2,
+          "answer": "U slučaju više sile, izvanrednog povećanja opsega poslova i u drugim sličnim slučajevima prijeke potrebe, radnik je na pisani zahtjev poslodavca dužan raditi duže od punog, odnosno nepunog radnog vremena (prekovremeni rad) (čl. 65. st. 1. Zakona o radu). Iznimno od toga, ako priroda prijeke potrebe onemogućava poslodavca da prije početka prekovremenog rada uruči radniku pisani zahtjev, usmeni zahtjev poslodavac je dužan pisano potvrditi u roku od sedam dana od dana kada je prekovremeni rad naložen (čl. 65. st. 2. Zakona o radu).",
+          "seconds": 21.6,
+          "citations": [
+            "65"
+          ],
+          "invalid_citations": []
+        }
+      ],
+      "qwen3:8b": [
+        {
+          "run": 1,
+          "answer": "Odgovor:  \nAko poslodavac naredi radniku da radi duže vrijeme, to je moguće u slučaju više sile, izvanrednog povećanja opsega poslova ili drugih sličnih slučajeva (čl. 65. stavak 1. Zakona o radu). Međutim, ukupno trajanje prekovremenog rada ne smije biti duže od pedeset sati tjedno (čl. 65. stavak 3.) i sto osamdeset sati godišnje, osim ako je ugovoreno kolektivnim ugovorom (čl. 65. stavak 4.).  \n\nZabranjen je prekovremeni rad maloljetnika (čl. 65. stavak 5.), te određeni grupi radnika (trudnice, roditelji s djetetom do tri godine života, samohrani roditelji s djetetom do šest godina života, radnici koji rade u nepunom radnom vremenu kod više poslodavaca, te radnici iz čl. 61. stavka 3. i čl. 62. stavka 3.) bez pisanog pristanka (čl. 65. stavak 6.).  \n\nAko je radniku naredio prekovremeni rad bez opravdanja, to je zabrano.",
+          "seconds": 68.3,
+          "citations": [
+            "61",
+            "62",
+            "65"
+          ],
+          "invalid_citations": []
+        },
+        {
+          "run": 2,
+          "answer": "Odgovor:  \nAko poslodavac naredi radniku da radi duže od punog, odnosno nepunog radnog vremena (prekovremeni rad), radnik je dužan izvršiti tu naredbu u slučaju **više sile** ili **izvanrednog povećanja opsega poslova** (čl. 65. stavak 1. Zakona o radu). Međutim, iznimno od ovog propisa, ako priroda prijeke potrebe onemogućava poslodavcu da prije početka prekovremenog rada uruči radniku pisani zahtjev, usmeni zahtjev mora biti pisano potvrdjen u roku od sedam dana (čl. 65. stavak 2.).  \n\nUkoliko radnik radi prekovremeno, ukupno trajanje rada ne smije biti duže od **pedeset sati tjedno** (čl. 65. stavak 3.), a prekovremeni rad pojedinog radnika ne smije trajati duže od **sto osamdeset sati godišnje** (čl. 65. stavak 4.).  \n\nZabranjen je prekovremeni rad maloljetnika (čl. 65. stavak 5.), te određeni grupi radnika (trudnice, roditelji s djetetom do tri godine života, itd.) bez njihovog pisanog pristanka, osim u slučaju više sile (čl. 65. stavak 6.).  \n\nDakle, radnik **mora raditi duže** ako mu to poslodavac naredi u navedenim slučajevima, ali s ograničenjima i iznimkama.",
+          "seconds": 58.6,
+          "citations": [
+            "65"
+          ],
+          "invalid_citations": []
+        }
+      ],
+      "mistral-nemo": [
+        {
+          "run": 1,
+          "answer": "Ako ti poslodavac naredi da radiš duže od ugovorenog punog ili nepunog radnog vremena bez pisane suglasnosti ili bez pravnog osnovanja kao što je više sile, to je protivan zakonu. Radnik nije dužan izvršiti takvu naredbu (čl. 65. Zakona o radu). Ako poslodavac naredi prekovremeni rad bez pisane suglasnosti ili bez pravnog osnovanja, on krši zakon i može biti kažnjen. Radnik ima pravo odbiti izvršavanje takve naredbe i može se obratiti na radničko vijeće ili sud za zaštitu svojih prava.",
+          "seconds": 33.0,
+          "citations": [
+            "65"
+          ],
+          "invalid_citations": []
+        },
+        {
+          "run": 2,
+          "answer": "Ako je poslodavac naredio prekovremeni rad, a nije ispunjeni uvjeti iz članka 65. Zakona o radu (na primjer u slučaju više sile), tada radnik ne mora raditi duže nego što je predviđeno ugovorom o radu ili propisima o radnom vremenu. U suprotnom, poslodavac može zahtijevati prekovremeni rad, ali samo uz ispunjavanje određenih uvjeta i ograničenja navedenih u članku 65. Zakona o radu.",
+          "seconds": 14.2,
+          "citations": [
+            "65"
+          ],
+          "invalid_citations": []
+        }
+      ]
+    }
+  },
+  {
+    "type": "B",
+    "question": "Kada mi poslodavac mora isplatiti plaću?",
+    "expected_article": "92",
+    "retrieved_articles": [
+      "92",
+      "229",
+      "93",
+      "49",
+      "126"
+    ],
+    "answers": {
+      "gemma3:12b": [
+        {
+          "run": 1,
+          "answer": "Poslodavac je dužan radniku dostaviti obračun dugovane, a neisplaćene plaće najkasnije do kraja mjeseca u kojem je dospjela isplata plaće (čl. 93. st. 2. Zakona o radu). Ako kolektivnim ugovorom ili ugovorom o radu nije drukčije određeno, plaća i naknada plaće za prethodni mjesec isplaćuju se najkasnije do petnaestog dana u idućem mjesecu (čl. 92. st. 3. Zakona o radu).",
+          "seconds": 36.3,
+          "citations": [
+            "92",
+            "93"
+          ],
+          "invalid_citations": []
+        },
+        {
+          "run": 2,
+          "answer": "Poslodavac je dužan radniku dostaviti obračun dugovane, a neisplaćene plaće, naknade plaće ili otpremnine do kraja mjeseca u kojem je dospjela isplata (čl. 93. st. 2. Zakona o radu). Ako kolektivnim ugovorom ili ugovorom o radu nije drukčije određeno, plaća i naknada plaće za prethodni mjesec isplaćuju se najkasnije do petnaestog dana u idućem mjesecu (čl. 92. st. 3. Zakona o radu).",
+          "seconds": 16.4,
+          "citations": [
+            "92",
+            "93"
+          ],
+          "invalid_citations": []
+        }
+      ],
+      "qwen3:8b": [
+        {
+          "run": 1,
+          "answer": "Odgovor: Poslodavac mora isplatiti plaću nakon obavljenog rada (čl. 92. st. 1. Zakona o radu). Ako nije drukčije određeno kolektivnim ugovorom ili ugovorom o radu, plaća i naknada plaće za prethodni mjesec isplaćuju se najkasnije do petnaestog dana u idućem mjesecu (čl. 92. st. 3.).",
+          "seconds": 52.1,
+          "citations": [
+            "92"
+          ],
+          "invalid_citations": []
+        },
+        {
+          "run": 2,
+          "answer": "Odgovor: Poslodavac mora isplatiti plaću nakon obavljenog rada (čl. 92. stavak 1. Zakona o radu). Ako nije drukčije određeno kolektivnim ugovorom ili ugovorom o radu, plaća i naknada plaće za prethodni mjesec isplaćuju se najkasnije do petnaestog dana u idućem mjesecu (čl. 92. stavak 3.).",
+          "seconds": 30.5,
+          "citations": [
+            "92"
+          ],
+          "invalid_citations": []
+        }
+      ],
+      "mistral-nemo": [
+        {
+          "run": 1,
+          "answer": "Poslodavac je dužan plaću isplatiti nakon obavljenog rada (čl. 92. stavak 1. Zakona o radu). Plaća i naknada plaće za prethodni mjesec moraju biti isplaćene najkasnije do petnaestog dana u idućem mjesecu, ako kolektivnim ugovorom ili ugovorom o radu nije drukčije određeno (čl. 92. stavak 3. Zakona o radu).",
+          "seconds": 26.1,
+          "citations": [
+            "92"
+          ],
+          "invalid_citations": []
+        },
+        {
+          "run": 2,
+          "answer": "Poslodavac je dužan isplatiti plaću najkasnije do petnaestog dana u idućem mjesecu, ako kolektivnim ugovorom ili ugovorom o radu nije drukčije određeno (čl. 93. stavak 3. Zakona o radu).",
+          "seconds": 7.6,
+          "citations": [
+            "93"
+          ],
+          "invalid_citations": []
+        }
+      ]
+    }
+  },
+  {
+    "type": "B",
+    "question": "Smije li me poslodavac ne zaposliti zato što sam trudna?",
+    "expected_article": "30",
+    "retrieved_articles": [
+      "30",
+      "34",
+      "31",
+      "102",
+      "229"
+    ],
+    "answers": {
+      "gemma3:12b": [
+        {
+          "run": 1,
+          "answer": "Poslodavac ne smije odbiti zaposliti ženu zbog njezine trudnoće (čl. 30. st. 1. Zakona o radu). Također, poslodavcu nije dopušteno ponuditi sklapanje izmijenjenog ugovora o radu pod nepovoljnijim uvjetima zbog trudnoće, rođenja ili dojenja djeteta (čl. 30. st. 1. Zakona o radu).",
+          "seconds": 36.9,
+          "citations": [
+            "30"
+          ],
+          "invalid_citations": []
+        },
+        {
+          "run": 2,
+          "answer": "Poslodavac ne smije odbiti zaposliti ženu zbog njezine trudnoće (čl. 30. st. 1. Zakona o radu). Također, poslodavcu nije dopušteno ponuditi sklapanje izmijenjenog ugovora o radu pod nepovoljnijim uvjetima zbog trudnoće, rođenja ili dojenja djeteta (čl. 30. st. 1. Zakona o radu).",
+          "seconds": 13.1,
+          "citations": [
+            "30"
+          ],
+          "invalid_citations": []
+        }
+      ],
+      "qwen3:8b": [
+        {
+          "run": 1,
+          "answer": "Odgovor: Poslodavac ne smije odbiti zaposliti trudnu ženu ni joj zbog trudnoće ponuditi sklapanje izmijenjenog ugovora o radu pod nepovoljnijim uvjetima (čl. 30. st. 1. Zakona o radu). Ovo je zabranjeno i prema članku 229. stavku 8. Zakona o radu, koji navodi da je prekršaj nezakonito zaposlijeti ženu zbog trudnoće.",
+          "seconds": 45.0,
+          "citations": [
+            "30",
+            "229"
+          ],
+          "invalid_citations": []
+        },
+        {
+          "run": 2,
+          "answer": "Odgovor: Poslodavac ne smije odbiti zaposliti trudnu ženu ni joj zbog trudnoće, rođenja ili dojenja djeteta ponuditi sklapanje izmijenjenog ugovora o radu pod nepovoljnijim uvjetima (čl. 30. st. 1. Zakona o radu). Također, za vrijeme trudnoće, korištenja rodiljnog, roditeljskog dopusta i slično, poslodavac ne smije otkazati ugovor o radu trudnici (čl. 34. st. 1. Zakona o radu).",
+          "seconds": 33.7,
+          "citations": [
+            "30",
+            "34"
+          ],
+          "invalid_citations": []
+        }
+      ],
+      "mistral-nemo": [
+        {
+          "run": 1,
+          "answer": "Poslodavac ne smije odbiti zaposliti ženu zbog njezine trudnoće, niti joj zbog trudnoće može ponuditi sklapanje izmijenjenog ugovora o radu pod nepovoljnijim uvjetima (čl. 30. st. 1. Zakona o radu).",
+          "seconds": 24.9,
+          "citations": [
+            "30"
+          ],
+          "invalid_citations": []
+        },
+        {
+          "run": 2,
+          "answer": "Poslodavac ne smije odbiti zaposliti ženu zbog njezine trudnoće. To je zabranjeno zakonom i smatra se diskriminacijom na temelju spolnog statusa. Ova pravila definirana su u Članku 30. Zakona o radu.\n\nUkoliko vam je poslodavac odbio zaposliti zbog vaše trudnoće, možete podnijeti tužbu i tražiti nadležni sud za zaštitu radnika da se posveže na vašu pravnu stvar.",
+          "seconds": 13.2,
+          "citations": [
+            "30"
+          ],
+          "invalid_citations": []
+        }
+      ]
+    }
+  },
+  {
+    "type": "B",
+    "question": "Što se događa ako sud utvrdi da mi otkaz nije bio zakonit?",
+    "expected_article": "125",
+    "retrieved_articles": [
+      "124",
+      "125",
+      "229",
+      "46",
+      "150"
+    ],
+    "answers": {
+      "gemma3:12b": [
+        {
+          "run": 1,
+          "answer": "Ako sud utvrdi da otkaz poslodavca nije dopušten i da radni odnos nije prestao, naložit će vraćanje radnika na posao (čl. 124. st. 1. Zakona o radu). Radnik koji osporava dopuštenost otkaza može tražiti da sud privremeno, do okončanja spora, naloži njegovo vraćanje na posao (čl. 124. st. 2. Zakona o radu). Ako sud utvrdi da otkaz poslodavca nije dopušten, a radniku nije prihvatljivo nastaviti radni odnos, sud će na zahtjev radnika odrediti dan prestanka radnog odnosa i dosuditi mu naknadu štete (čl. 125. st. 1. Zakona o radu).",
+          "seconds": 47.2,
+          "citations": [
+            "124",
+            "125"
+          ],
+          "invalid_citations": []
+        },
+        {
+          "run": 2,
+          "answer": "Ako sud utvrdi da otkaz poslodavca nije dopušten i da radni odnos nije prestao, naložit će vraćanje radnika na posao (čl. 124. st. 1. Zakona o radu). Radnik koji osporava dopuštenost otkaza može tražiti da sud privremeno, do okončanja spora, naloži njegovo vraćanje na posao (čl. 124. st. 2. Zakona o radu). Ako je otkaz nije u pisanom obliku, nije obrazložen ili ako nije dostavljen radniku, to je prekršaj (čl. 35. Izvora 3).",
+          "seconds": 18.9,
+          "citations": [
+            "35",
+            "124"
+          ],
+          "invalid_citations": [
+            "35"
+          ]
+        }
+      ],
+      "qwen3:8b": [
+        {
+          "run": 1,
+          "answer": "Ako sud utvrdi da je otkaz nezakonit, radnika će naložiti da vrati na posao (čl. 124. stavak 1. Zakona o radu). Ako radniku nije prihvatljivo nastaviti radni odnos, sud će odrediti dan prestanka radnog odnosa i dosuditi mu naknadu štete (čl. 125. stavak 1. Zakona o radu). Naknada štete iznosi najmanje tri, a najviše osam mjesečnih plaća, ovisno o trajanju radnog odnosa, starosti i obvezama uzdržavanja.",
+          "seconds": 49.1,
+          "citations": [
+            "124",
+            "125"
+          ],
+          "invalid_citations": []
+        },
+        {
+          "run": 2,
+          "answer": "Ako sud utvrdi da je otkaz nezakonit, radnika će naložiti da vrati na posao (čl. 124. stavak 1. Zakona o radu). Ako radniku nije prihvatljivo nastaviti radni odnos, sud će odrediti dan prestanka radnog odnosa i dosuditi mu naknadu štete (čl. 125. stavak 1. Zakona o radu). U slučaju izvanrednog otkaza, radnika se može privremeno udaljiti s posla do okončanja sudskog spora, uz obvezu isplate mjesečne naknade plaće (čl. 150. stavak 10. Zakona o radu).",
+          "seconds": 33.3,
+          "citations": [
+            "124",
+            "125",
+            "150"
+          ],
+          "invalid_citations": []
+        }
+      ],
+      "mistral-nemo": [
+        {
+          "run": 1,
+          "answer": "Ako sud utvrdi da ti je otkaz poslodavca nije bio dopušten, on će naložiti vraćanje radnika na posao (čl. 124. st. 1. Zakona o radu). Također, ako ti je otkaz bio izvanredan, sud može privremeno udaljiti tebe s posla do okončanja sudskog spora o dopuštenosti otkaza, uz obvezu isplate mjesečne naknade plaće u visini polovice prosječne plaće isplaćene ti u prethodna tri mjeseca (čl. 150. st. 10. Zakona o radu).",
+          "seconds": 33.6,
+          "citations": [
+            "124",
+            "150"
+          ],
+          "invalid_citations": []
+        },
+        {
+          "run": 2,
+          "answer": "Ako sud utvrdi da otkaz poslodavca nije dopušten, a radniku nije prihvatljivo nastaviti radni odnos, sud će na zahtjev radnika odrediti dan prestanka radnog odnosa i dosuditi mu naknadu štete u iznosu od najmanje tri, a najviše osam propisanih ili ugovorenih mjesečnih plaća toga radnika, ovisno o trajanju radnoga odnosa, starosti te obvezama uzdržavanja koje terete radnika (čl. 125. stavak 1. Zakona o radu).",
+          "seconds": 15.1,
+          "citations": [
+            "125"
+          ],
+          "invalid_citations": []
+        }
+      ]
+    }
+  },
+  {
+    "type": "C",
+    "question": "Koliko dana godišnjeg odmora ima radnik?",
+    "expected_article": "77",
+    "retrieved_articles": [
+      "85",
+      "74",
+      "66",
+      "77",
+      "79"
+    ],
+    "answers": {
+      "gemma3:12b": [
+        {
+          "run": 1,
+          "answer": "Radnik ima pravo na najmanje četiri tjedna godišnjeg odmora za svaku kalendarsku godinu (čl. 77. st. 1. Zakona o radu). Maloljetnici i radnici koji rade na poslovima gdje nije moguće zaštititi zdravlje i sigurnost na radu imaju pravo na najmanje pet tjedana godišnjeg odmora (čl. 77. st. 1. Zakona o radu). Trajanje godišnjeg odmora može biti duže kolektivnim ugovorom, sporazumom između radničkog vijeća i poslodavca, pravilnikom o radu ili ugovorom o radu (čl. 77. st. 2. Zakona o radu).",
+          "seconds": 43.2,
+          "citations": [
+            "77"
+          ],
+          "invalid_citations": []
+        },
+        {
+          "run": 2,
+          "answer": "Radnik ima pravo na godišnji odmor od najmanje četiri tjedna (čl. 77. st. 1. Zakona o radu). Maloljetnici i radnici koji rade na poslovima gdje nije moguće zaštititi zdravlje i sigurnost na radu imaju pravo na najmanje pet tjedana godišnjeg odmora (čl. 77. st. 1. Zakona o radu). Trajanje godišnjeg odmora može biti duže kolektivnim ugovorom, sporazumom između radničkog vijeća i poslodavca, pravilnikom o radu ili ugovorom o radu (čl. 77. st. 2. Zakona o radu).",
+          "seconds": 19.2,
+          "citations": [
+            "77"
+          ],
+          "invalid_citations": []
+        }
+      ],
+      "qwen3:8b": [
+        {
+          "run": 1,
+          "answer": "Radnik ima pravo na godišnji odmor od najmanje četiri tjedna (čl. 77. st. 1. Zakona o radu). Ako radnik radi u nepunom radnom vremenu, broj dana godišnjeg odmora računa se proporcionalno njegovom tjednom rasporedu radnog vremena (čl. 79. st. 1. Zakona o radu). Minimalni broj dana godišnjeg odmora za puno radno vrijeme iznosi 20 radnih dana (četiri tjedna po pet radnih dana u tjednu).",
+          "seconds": 54.6,
+          "citations": [
+            "77",
+            "79"
+          ],
+          "invalid_citations": []
+        },
+        {
+          "run": 2,
+          "answer": "Odgovor: Radnik ima pravo na godišnji odmor od najmanje četiri tjedna (čl. 77. st. 1. Zakona o radu). Iznimno, maloljetnicima i radnicima koji rade na poslovima na kojima nije moguće zaštititi zdravlje i sigurnost na radu, godišnji odmor iznosi najmanje pet tjedana. Trajanje godišnjeg odmora može se povećati prema kolektivnom ugovoru ili drugim propisima (čl. 77. st. 2.).",
+          "seconds": 52.5,
+          "citations": [
+            "77"
+          ],
+          "invalid_citations": []
+        }
+      ],
+      "mistral-nemo": [
+        {
+          "run": 1,
+          "answer": "Radnik ima pravo na najmanje četiri tjedna godišnjeg odmora po članku 77. stavka 1. Zakona o radu.",
+          "seconds": 14.3,
+          "citations": [
+            "77"
+          ],
+          "invalid_citations": []
+        },
+        {
+          "run": 2,
+          "answer": "Radnik ima pravo na najmanje četiri tjedna godišnjeg odmora po članku 77. stavak 1. Zakona o radu.",
+          "seconds": 4.2,
+          "citations": [
+            "77"
+          ],
+          "invalid_citations": []
+        }
+      ]
+    }
+  },
+  {
+    "type": "C",
+    "question": "Koliko traje otkazni rok?",
+    "expected_article": "122",
+    "retrieved_articles": [
+      "188",
+      "53",
+      "122",
+      "59",
+      "128"
+    ],
+    "answers": {
+      "gemma3:12b": [
+        {
+          "run": 1,
+          "answer": "Otkazni rok ovisi o duljini radnog odnosa s poslodavcem. Minimalno traje dva tjedna ako je radnik u radnom odnosu manje od jedne godine (čl. 122. st. 1. Zakona o radu). Za radnike koji su kod poslodavca proveli neprekidno jednu godinu, otkazni rok traje mjesec dana (čl. 122. st. 1. Zakona o radu). Ako je radnik u radnom odnosu s poslodavcem proveo neprekidno dvadeset godina, otkazni rok se povećava za dva tjedna ako je radnik navršio pedeset godina života, a za mjesec dana ako je navršio pedeset pet godina života (čl. 122. st. 2. Zakona o radu). Ako je otkaz uvjetovan skrivljenim ponašanjem radnika, utvrđuje se otkazni rok u dužini polovice propisanih rokova (čl. 122. st. 3. Zakona o radu).",
+          "seconds": 48.2,
+          "citations": [
+            "122"
+          ],
+          "invalid_citations": []
+        },
+        {
+          "run": 2,
+          "answer": "Otkazni rok ovisi o duljini radnog odnosa s poslodavcem. Minimalno traje dva tjedna ako je radnik u radnom odnosu manje od jedne godine (čl. 122. st. 1. Zakona o radu). Za radnike koji su u radnom odnosu duže, otkazni rok se produžuje prema propisanim kriterijima (čl. 122. Zakona o radu). Kod otkaza zbog povrede obveze iz radnog odnosa, utvrđuje se otkazni rok u dužini polovice propisanih rokova (čl. 122. st. 3. Zakona o radu). Ako radnik otkazuje ugovor o radu, otkazni rok ne može biti duži od mjesec dana, ako on za to ima osobito važan razlog (čl. 122. st. 7. Zakona o radu). Kod ugovorenog probnog rada, otkazni rok je najmanje sedam dana (čl. 53. st. 5. Zakona o radu).",
+          "seconds": 30.1,
+          "citations": [
+            "53",
+            "122"
+          ],
+          "invalid_citations": []
+        }
+      ],
+      "qwen3:8b": [
+        {
+          "run": 1,
+          "answer": "Odgovor: Otkazni rok zavisi od trajanja radnog odnosa i druge okolnosti. U općem slučaju, otkazni rok je:  \n1) najmanje **dva tjedna**, ako je radnik u radnom odnosu kod istog poslodavca proveo neprekidno manje od jedne godine (čl. 122. st. 1. 1.);  \n2) **mjesec dana**, ako je radnik proveo neprekidno jednu godinu (čl. 122. st. 1. 2.);  \n3) **mjesec dana i dva tjedna**, ako je proveo neprekidno dvije godine (čl. 122. st. 1. 3.);  \n4) **dva mjeseca**, ako je proveo neprekidno pet godina (čl. 122. st. 1. 4.);  \n5) **dva mjeseca i dva tjedna**, ako je proveo neprekidno deset godina (čl. 122. st. 1. 5.);  \n6) **tri mjeseca**, ako je proveo neprekidno dvadeset godina (čl. 122. st. 1. 6.).  \n\nDodatno, za radnike koji su navršili **pedeset godina života**, otkazni rok se povećava za **dva tjedna**, a za one koji su navršili **pedeset pet godina života**, za **mjesec dana** (čl. 122. st. 2.). Ako se otkazuje zbog **povrede obveza radnika** (otkaz uvjetovan skrivljenim ponašanjem), otkazni rok je **polovica** standardnih rokova (čl. 122. st. 3.).  \n\nU slučaju **probnog rada**, otkazni rok je najmanje **sedam dana** (čl. 53. st. 5.).",
+          "seconds": 96.3,
+          "citations": [
+            "53",
+            "122"
+          ],
+          "invalid_citations": []
+        },
+        {
+          "run": 2,
+          "answer": "Odgovor: Otkazni rok zavisi od trajanja radnog odnosa i druge situacije. U općem slučaju, otkazni rok je najmanje:  \n1) dva tjedna, ako je radnik u radnom odnosu kod istog poslodavca proveo neprekidno manje od jedne godine (čl. 122. st. 1. 1.);  \n2) mjesec dana, ako je radnik u radnom odnosu kod istog poslodavca proveo neprekidno jednu godinu (čl. 122. st. 1. 2.);  \n3) mjesec dana i dva tjedna, ako je radnik u radnom odnosu kod istog poslodavca proveo neprekidno dvije godine (čl. 122. st. 1. 3.);  \n4) dva mjeseca, ako je radnik u radnom odnosu kod istog poslodavca proveo neprekidno pet godina (čl. 122. st. 1. 4.);  \n5) dva mjeseca i dva tjedna, ako je radnik u radnom odnosu kod istog poslodavca proveo neprekidno deset godina (čl. 122. st. 1. 5.);  \n6) tri mjeseca, ako je radnik u radnom odnosu kod istog poslodavca proveo neprekidno dvadeset godina (čl. 122. st. 1. 6.).  \n\nAko radnik otkazuje ugovor o radu, otkazni rok ne može biti duži od mjesec dana, osim ako ima osobito važan razlog (čl. 122. st. 7.).",
+          "seconds": 60.3,
+          "citations": [
+            "122"
+          ],
+          "invalid_citations": []
+        }
+      ],
+      "mistral-nemo": [
+        {
+          "run": 1,
+          "answer": "Otkazni rok ovisi o dužini rada u istom poduzeću. Ako je radnik proveo manje od jedne godine, otkazni rok je najmanje dva tjedna. Ako je radnik proveo neprekidno jednu godinu, otkazni rok je najmanje mjesec dana. Ako je radnik proveo neprekidno dvije godine, otkazni rok je najmanje mjesec dana i dva tjedna. Ako je radnik proveo neprekidno pet godina, otkazni rok je najmanje dva mjeseca. Ako je radnik proveo neprekidno deset godina, otkazni rok je najmanje dva mjeseca i dva tjedna. Ako je radnik proveo neprekidno dvadeset godina, otkazni rok je najmanje tri mjeseca (čl. 122. Zakona o radu).",
+          "seconds": 33.4,
+          "citations": [
+            "122"
+          ],
+          "invalid_citations": []
+        },
+        {
+          "run": 2,
+          "answer": "Otkazni rok ovisi o dužini rada kod istog poslodavca. Ako je radnik proveo manje od jedne godine, otkazni rok je najmanje dva tjedna. Ako je radnik proveo neprekidno jednu godinu, otkazni rok je najmanje mjesec dana. Ako je radnik proveo neprekidno dvije godine, otkazni rok je najmanje mjesec dana i dva tjedna. Ako je radnik proveo neprekidno pet godina, otkazni rok je najmanje dva mjeseca. Ako je radnik proveo neprekidno deset godina, otkazni rok je najmanje dva mjeseca i dva tjedna. Ako je radnik proveo neprekidno dvadeset godina, otkazni rok je najmanje tri mjeseca (čl. 122. Zakona o radu).",
+          "seconds": 21.0,
+          "citations": [
+            "122"
+          ],
+          "invalid_citations": []
+        }
+      ]
+    }
+  },
+  {
+    "type": "C",
+    "question": "Ima li radnik pravo na stanku tijekom radnog dana?",
+    "expected_article": "73",
+    "retrieved_articles": [
+      "72",
+      "86",
+      "73",
+      "94",
+      "34"
+    ],
+    "answers": {
+      "gemma3:12b": [
+        {
+          "run": 1,
+          "answer": "Radnik koji radi najmanje šest sati dnevno, ima svakoga radnog dana pravo na odmor (stanku) od najmanje trideset minuta (čl. 73. st. 1. Zakona o radu). Maloljetnik koji radi najmanje četiri i pol sata dnevno, također ima pravo na odmor (stanku) od najmanje trideset minuta neprekidno (čl. 73. st. 2. Zakona o radu).",
+          "seconds": 33.1,
+          "citations": [
+            "73"
+          ],
+          "invalid_citations": []
+        },
+        {
+          "run": 2,
+          "answer": "Radnik koji radi najmanje šest sati dnevno, ima svakoga radnog dana pravo na odmor (stanku) od najmanje trideset minuta (čl. 73. st. 1. Zakona o radu). Maloljetnik koji radi najmanje četiri i pol sata dnevno, također ima pravo na odmor (stanku) od najmanje trideset minuta neprekidno (čl. 73. st. 2. Zakona o radu).",
+          "seconds": 12.9,
+          "citations": [
+            "73"
+          ],
+          "invalid_citations": []
+        }
+      ],
+      "qwen3:8b": [
+        {
+          "run": 1,
+          "answer": "Odgovor: Da, radnik ima pravo na stanku tijekom radnog dana. Radnik koji radi najmanje šest sati dnevno ima svakoga radnog dana pravo na odmor od najmanje trideset minuta (čl. 73. st. 1. Zakona o radu). Isti pravila vrijede i za maloljetnike koji radiju najmanje četiri i pol sata dnevno (čl. 73. st. 2.). Ako radnik u nepunom radnom vremenu radi kod više poslodavaca, pravo na stanku ostvaruje kod svakog poslodavca razmjerno ugovorenom nepunom radnom vremenu (čl. 73. st. 3.). Vrijeme odmora se ubraja u radno vrijeme (čl. 73. st. 4.).",
+          "seconds": 62.6,
+          "citations": [
+            "73"
+          ],
+          "invalid_citations": []
+        },
+        {
+          "run": 2,
+          "answer": "Odgovor: Da, radnik ima pravo na stanku tijekom radnog dana. Radnik koji radi najmanje šest sati dnevno ima pravo na odmor od najmanje trideset minuta svakog radnog dana (čl. 73. st. 1. Zakona o radu). Isti pravila vrijede i za maloljetnike koji rade najmanje četiri i pol sata dnevno (čl. 73. st. 2. Zakona o radu). Vrijeme odmora ubraja se u radno vrijeme (čl. 73. st. 4. Zakona o radu).",
+          "seconds": 35.7,
+          "citations": [
+            "73"
+          ],
+          "invalid_citations": []
+        }
+      ],
+      "mistral-nemo": [
+        {
+          "run": 1,
+          "answer": "Radnik koji radi najmanje šest sati dnevno, ima svakoga radnog dana pravo na odmor (stanku) od najmanje trideset minuta, osim ako posebnim zakonom nije drukčije određeno. (Čl. 73. st. 1. Zakona o radu)\n\nStoga, radnik ima pravo na stanku tijekom radnog dana.",
+          "seconds": 23.4,
+          "citations": [
+            "73"
+          ],
+          "invalid_citations": []
+        },
+        {
+          "run": 2,
+          "answer": "Radnik koji radi najmanje šest sati dnevno, ima svakoga radnog dana pravo na odmor (stanku) od najmanje trideset minuta, osim ako posebnim zakonom nije drukčije određeno (čl. 73. st. 1. Zakona o radu).",
+          "seconds": 7.7,
+          "citations": [
+            "73"
+          ],
+          "invalid_citations": []
+        }
+      ]
+    }
+  },
+  {
+    "type": "C",
+    "question": "Kolika je naknada plaće za vrijeme godišnjeg odmora?",
+    "expected_article": "81",
+    "retrieved_articles": [
+      "81",
+      "80",
+      "78",
+      "79",
+      "76"
+    ],
+    "answers": {
+      "gemma3:12b": [
+        {
+          "run": 1,
+          "answer": "Naknada plaće za vrijeme korištenja godišnjeg odmora je u visini određenoj kolektivnim ugovorom, pravilnikom o radu ili ugovorom o radu, a najmanje u visini prosječne mjesečne plaće radnika u prethodna tri mjeseca (čl. 81. Zakona o radu).",
+          "seconds": 24.9,
+          "citations": [
+            "81"
+          ],
+          "invalid_citations": []
+        },
+        {
+          "run": 2,
+          "answer": "Naknada plaće za vrijeme korištenja godišnjeg odmora je u visini određenoj kolektivnim ugovorom, pravilnikom o radu ili ugovorom o radu, a najmanje u visini njegove prosječne mjesečne plaće u prethodna tri mjeseca (čl. 81. Zakona o radu).",
+          "seconds": 9.3,
+          "citations": [
+            "81"
+          ],
+          "invalid_citations": []
+        }
+      ],
+      "qwen3:8b": [
+        {
+          "run": 1,
+          "answer": "Odgovor: Naknada plaće za vrijeme godišnjeg odmora iznosi najmanje prosječnu mjesečnu plaću radnika u prethodna tri mjeseca (čl. 81. Zakona o radu). Iznimno, radnik ima pravo na naknadu plaće u visini određenoj kolektivnim ugovorom, pravilnikom o radu ili ugovorom o radu. Sporazum o odricanju od prava na godišnji odmor ili o isplati naknade umjesto korištenja godišnjeg odmora je ništetan (čl. 80. Zakona o radu).",
+          "seconds": 39.6,
+          "citations": [
+            "80",
+            "81"
+          ],
+          "invalid_citations": []
+        },
+        {
+          "run": 2,
+          "answer": "Odgovor: Naknada plaće za vrijeme godišnjeg odmora iznosi najmanje prosječnu mjesečnu plaću radnika u prethodna tri mjeseca (uračunavajući sva primanja u novcu i naravi koja predstavljaju naknadu za rad) (čl. 81. stav 1. Zakona o radu). Ništetan je sporazum o odricanju od prava na godišnji odmor, odnosno o isplati naknade umjesto korištenja godišnjeg odmora (čl. 80.).",
+          "seconds": 33.0,
+          "citations": [
+            "80",
+            "81"
+          ],
+          "invalid_citations": []
+        }
+      ],
+      "mistral-nemo": [
+        {
+          "run": 1,
+          "answer": "Naknada plaće za vrijeme godišnjeg odmora je najmanje u visini radnikove prosječne mjesečne plaće u prethodna tri mjeseca, a može biti određena i kolektivnim ugovorom ili pravilnikom o radu (čl. 81. Zakona o radu).",
+          "seconds": 14.4,
+          "citations": [
+            "81"
+          ],
+          "invalid_citations": []
+        },
+        {
+          "run": 2,
+          "answer": "Naknada plaće za vrijeme godišnjeg odmora je najmanje u visini radnikove prosječne mjesečne plaće u prethodna tri mjeseca, ali može biti i veća ako je određena kolektivnim ugovorom ili pravilnikom o radu (čl. 81. Zakona o radu).",
+          "seconds": 8.4,
+          "citations": [
+            "81"
+          ],
+          "invalid_citations": []
+        }
+      ]
+    }
+  },
+  {
+    "type": "D",
+    "question": "Koje obveze ima poslodavac prije donošenja odluke o poslovno uvjetovanom otkazu?",
+    "expected_article": "115",
+    "retrieved_articles": [
+      "115",
+      "119",
+      "47",
+      "127",
+      "123"
+    ],
+    "answers": {
+      "gemma3:12b": [
+        {
+          "run": 1,
+          "answer": "[GREŠKA: Server error '500 Internal Server Error' for url 'http://ollama:11434/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500]",
+          "seconds": 0.7,
+          "citations": [],
+          "invalid_citations": []
+        },
+        {
+          "run": 2,
+          "answer": "Prije donošenja odluke o poslovno uvjetovanom otkazu, poslodavac mora voditi računa o trajanju radnog odnosa, starosti i obvezama uzdržavanja koje terete radnika (čl. 115. st. 2.). Također, ako u razdoblju od devedeset dana mogla prestati potreba za radom najmanje dvadeset radnika, od kojih bi poslovno uvjetovanim otkazom prestali ugovori o radu najmanje petorice radnika, poslodavac je dužan savjetovati se s radničkim vijećem (čl. 127. st. 1.). Tijekom postupka savjetovanja, poslodavac mora razmotriti i obrazložiti sve mogućnosti koje bi mogle otkloniti namjeravan prestanak potrebe za radom radnika (čl. 127. st. 4.).",
+          "seconds": 55.3,
+          "citations": [
+            "115",
+            "127"
+          ],
+          "invalid_citations": []
+        }
+      ],
+      "qwen3:8b": [
+        {
+          "run": 1,
+          "answer": "Odgovor: Poslodavac prije donošenja odluke o poslovno uvjetovanom otkazu ima obavezu voditi računa o trajanju radnog odnosa, starosti i obvezama uzdržavanja koje terete radnika (čl. 115. st. 2. Zakona o radu). Dodatno, ako je priču je otkazivanje viška radnika, poslodavac je dužan pravodobno i na način propisan Zakonom savjetovati se s radničkim vijećem radi postizanja sporazuma u svrhu otklanjanja ili smanjenja potrebe za prestankom rada radnika (čl. 127. st. 1. Zakona o radu).",
+          "seconds": 84.2,
+          "citations": [
+            "115",
+            "127"
+          ],
+          "invalid_citations": []
+        },
+        {
+          "run": 2,
+          "answer": "Odgovor: Poslodavac prije donošenja odluke o poslovno uvjetovanom otkazu ima obavezu da vodi računa o trajanju radnog odnosa, starosti i obvezama uzdržavanja koje terete radnika (čl. 115. stavak 2. Zakona o radu). Dodatno, ako je prijetnja otkaza uključivala najmanje 20 radnika, poslodavac je dužan pravodobno i na način propisan Zakonom savjetovati se s radničkim vijećem radi postizanja sporazuma (čl. 127. stavak 1. Zakona o radu).",
+          "seconds": 35.9,
+          "citations": [
+            "115",
+            "127"
+          ],
+          "invalid_citations": []
+        }
+      ],
+      "mistral-nemo": [
+        {
+          "run": 1,
+          "answer": "Poslodavac prije donošenja odluke o poslovno uvjetovanom otkazu mora voditi računa o trajanju radnog odnosa, starosti i obvezama uzdržavanja koje terete radnika (čl. 115. stavak 2. Zakona o radu).",
+          "seconds": 22.8,
+          "citations": [
+            "115"
+          ],
+          "invalid_citations": []
+        },
+        {
+          "run": 2,
+          "answer": "Poslodavac prije donošenja odluke o poslovno uvjetovanom otkazu mora voditi računa o trajanju radnog odnosa, starosti i obvezama uzdržavanja koje terete radnika (čl. 115. stavak 2. Zakona o radu).",
+          "seconds": 7.6,
+          "citations": [
+            "115"
+          ],
+          "invalid_citations": []
+        }
+      ]
+    }
+  },
+  {
+    "type": "D",
+    "question": "Što mora sadržavati ugovor o radu i u kojem obliku se sklapa?",
+    "expected_article": "15",
+    "retrieved_articles": [
+      "15",
+      "17",
+      "46",
+      "14",
+      "16"
+    ],
+    "answers": {
+      "gemma3:12b": [
+        {
+          "run": 1,
+          "answer": "Ugovor o radu mora se sklapati u pisanom obliku (čl. 14. st. 1. Zakona o radu). Ako to nije učinjeno, poslodavac je dužan izdati pisanu potvrdu o sklopljenom ugovoru o radu prije početka rada (čl. 14. st. 3. Zakona o radu).\n\nPisanim ugovorom o radu mora sadržavati podatke o: strankama i njihovom prebivalištu/sjedištu, mjestu rada, nazivu posla, datumu početka rada, očekivanom trajanju (ako je za određeno vrijeme), trajanju godišnjeg odmora, otkaznim rokovima, osnovnoj plaći, dodacima na plaću i razdobljima isplate primanja te trajanju radnog dana ili tjedna (čl. 15. st. 1. Zakona o radu). Moguće je uputiti se ugovorom na zakon, kolektivni ugovor ili pravilnik o radu koji uređuje pojedine podatke (čl. 15. st. 2. Zakona o radu).",
+          "seconds": 59.6,
+          "citations": [
+            "14",
+            "15"
+          ],
+          "invalid_citations": []
+        },
+        {
+          "run": 2,
+          "answer": "Ugovor o radu mora se sklapati u pisanom obliku (čl. 14. st. 1. Zakona o radu). Ako to nije učinjeno, poslodavac je dužan izdati pisanu potvrdu o sklopljenom ugovoru o radu prije početka rada (čl. 14. st. 3. Zakona o radu). U slučaju propusta, smatra se da je sklopljen ugovor na neodređeno vrijeme (čl. 14. st. 4. Zakona o radu).\n\nPisanom ugovorom o radu mora sadržavati podatke o: strankama i njihovom prebivalištu/sjedištu, mjestu rada, nazivu posla, datumu početka rada, očekivanom trajanju (ako je na određeno vrijeme), trajanju godišnjeg odmora, otkaznim rokovima, osnovnoj plaći, dodacima i razdobljima isplate te trajanju radnog dana ili tjedna (čl. 15. st. 1. Zakona o radu). Umjesto navedenih podataka može se uputiti na zakon, kolektivni ugovor ili pravilnik o radu (čl. 15. st. 2. Zakona o radu).",
+          "seconds": 35.4,
+          "citations": [
+            "14",
+            "15"
+          ],
+          "invalid_citations": []
+        }
+      ],
+      "qwen3:8b": [
+        {
+          "run": 1,
+          "answer": "Odgovor:  \nUgovor o radu mora se sklapati u pisanom obliku (članak 14. Zakona o radu), a u slučaju prekida rada bez pisanog ugovora, poslodavac je dužan izdati radniku pisanu potvrdu o sklopljenom ugovoru o radu (članak 14. stavak 3.). Ako se ugovor ne sklopi u pisanom obliku ni ne izda pisanu potvrda, smatra se da je ugovor o radu na neodređeno vrijeme (članak 14. stavak 4.).  \n\nUgovor o radu mora sadržavati sljedeće podatke:  \n1. Podaci o strankama (njihovo prebivalište ili sjedište) (članak 15. stavak 1).  \n2. Mjesto rada (članak 15. stavak 1).  \n3. Opis posla (članak 15. stavak 1).  \n4. Datum početka rada (članak 15. stavak 1).  \n5. Očekivano trajanje ugovora (članak 15. stavak 1).  \n6. Trajanje redovitog radnog dana ili tjedna (članak 15. stavak 1).  \n7. Plaću, dodatke na plaću i razdoblja isplate plaće (članak 15. stavak 1).  \n8. Trajanje godišnjeg odmora (članak 15. stavak 1).  \n9. Obavještavanje o uvjetima rada (članak 15. stavak 1).  \n\nU slučaju da se neki od navedenih podataka ne mogu uključiti u ugovor, mogu se uputiti na odgovarajući kolektivni ugovor ili pravilnik o radu koji uređuje ta pitanja (članak 15. stavak 5).  \n\nDodatno, za stalne sezonske poslove, ugovor mora sadržavati uv",
+          "seconds": 107.6,
+          "citations": [
+            "14",
+            "15"
+          ],
+          "invalid_citations": []
+        },
+        {
+          "run": 2,
+          "answer": "Odgovor: Ugovor o radu mora se sklapati u pisanom obliku (čl. 14. stavak 1. Zakona o radu). Ako ugovor nije sklopljen u pisanom obliku, poslodavac je dužan radniku izdati pisanu potvrdu o sklopljenom ugovoru o radu (čl. 14. stavak 3. i 4.). Ugovor o radu mora sadržavati sljedeće podatke:  \n- Identitet stranaka (prebivalište ili sjedište) (čl. 15. stavak 1. i čl. 46. stavak 4.);  \n- Mjesto rada (čl. 15. stavak 1. i čl. 46. stavak 4.);  \n- Opis posla (čl. 15. stavak 1. i čl. 46. stavak 4.);  \n- Datum početka rada (čl. 15. stavak 1. i čl. 46. stavak 4.);  \n- Očekivano trajanje ugovora (čl. 15. stavak 1. i čl. 46. stavak 4.);  \n- Plaću, dodatke na plaću i razdoblja isplate (čl. 15. stavak 1. i čl. 46. stavak 4.);  \n- Trajanje redovitog radnog dana ili tjedna (čl. 15. stavak 1. i čl. 46. stavak 4.);  \n- Odmore i dopuste (čl. 15. stavak 1. i čl. 46. stavak 6.);  \n- Obavještavanje o mirovinskom i zdravstvenom osiguranju (čl. 14. stavak 5.);  \n- Dodatne informacije za stalne sezonske poslove (čl. 16. stavak 3.);  \n- Uvjeti za produženo mirovinsko osiguranje (čl. 16. stavak 3. točka 1.);  \n- Rok za ponudu sklapanja ugovora za iduću sezonu (čl. 16. stavak 3. točka 2.);  \n- Rok za izjasnjenje na ponudu (čl. 16. stavak 3. točka 3.).  \n\nAko se neki podaci ne mogu navediti, mogu se uputiti na odgovarajući kolektivni ugovor ili pravilnik o radu (čl. 15. stavak 5., čl. 16. stavak 3. točka 1., čl. 46. stavak 7.).",
+          "seconds": 109.1,
+          "citations": [
+            "14",
+            "15",
+            "16",
+            "46"
+          ],
+          "invalid_citations": []
+        }
+      ],
+      "mistral-nemo": [
+        {
+          "run": 1,
+          "answer": "Ugovor o radu mora biti sklapan u pisanom obliku i sadržati određene podatke, kao što su: nazivi strana, njihova adresa ili sjedište, mjesto rada, naziv posla ili opis poslova, datum početka rada, očekivano trajanje ugovora (ako je određeno), trajanje plaćenog godišnjeg odmora, otkazni rokovi za radnika i poslodavca, osnovna plaća i dodaci na plaću, razdoblja isplate primanja, trajanje redovitog radnog dana ili tjedna. Ugovor o radu mora sadržati i druge podatke u zavisnosti od vrste rada i uvjeta sklapanja ugovora (npr. za obavljanje poslova kod kuće radnika ili u drugom prostoru koji nije prostor poslodavca, za privremeno obavljanje poslova, za ustupanje radnika za privremeno obavljanje poslova kod korisnika itd.). Ugovor o radu mora biti sklapan između poslodavca i radnika, a u slučaju da ugovor nije sklapan u pisanom obliku, smatra se da je sklapan ugovor na neodređeno vrijeme.",
+          "seconds": 62.7,
+          "citations": [],
+          "invalid_citations": []
+        },
+        {
+          "run": 2,
+          "answer": "Ugovor o radu mora biti sklapan u pisanom obliku i sadržavati određene podatke, kao što su: nazivi stranaka, njihova adresa ili sjedište, opis posla ili vrste rada, datum početka rada, očekivano trajanje ugovora, osnovna plaća i dodaci na plaću, razdoblja isplate primanja, trajanje redovitog radnog dana ili tjedna, otkazni rokovi za radnika i poslodavca, način određivanja trajanja godišnjeg odmora, obvezni sadržaj pisanog ugovora o radu za stalne sezonske poslove, obvezni sadržaj pisanog ugovora o radu za obavljanje poslova kod kuće radnika ili u drugom prostoru koji nije prostor poslodavca, obvezni sadržaj pisanog ugovora o radu za privremeno obavljanje poslova i obvezni sadržaj pisanog ugovora o radu na određeno vrijeme za stalne sezonske poslove (čl. 15., 17., 46., 16. Zakona o radu).",
+          "seconds": 29.2,
+          "citations": [
+            "15"
+          ],
+          "invalid_citations": []
+        }
+      ]
+    }
+  },
+  {
+    "type": "E",
+    "question": "Koliko iznosi minimalna plaća u Republici Hrvatskoj?",
+    "expected_article": null,
+    "retrieved_articles": [
+      "1",
+      "221",
+      "92",
+      "2",
+      "18"
+    ],
+    "answers": {
+      "gemma3:12b": [
+        {
+          "run": 1,
+          "answer": "Žao mi je, ali odgovor na vaše pitanje nije sadržan u danom kontekstu. Tekst sadrži odredbe o Gospodarsko-socijalnom vijeću, načinu isplate plaće, direktivama Europske unije koje se prenose Zakonom o radu, te upućivanje radnika na rad u inozemstvo, ali ne spominje minimalnu plaću.",
+          "seconds": 47.6,
+          "citations": [],
+          "invalid_citations": []
+        },
+        {
+          "run": 2,
+          "answer": "Žao mi je, ali odgovor na vaše pitanje nije sadržan u danom kontekstu. Kontekst sadrži dijelove Zakona o radu koji se odnose na utvrđivanje Gospodarsko-socijalnog vijeća, isplatu plaće, preuzimanje direktiva Europske unije, rad u inozemstvu i ne spominju minimalnu plaću.",
+          "seconds": 10.4,
+          "citations": [],
+          "invalid_citations": []
+        }
+      ],
+      "qwen3:8b": [
+        {
+          "run": 1,
+          "answer": "Odgovor: U danom kontekstu navedenih članaka Zakona o radu nije naveden iznos minimalne plaće. Minimalna plaća u Republici Hrvatskoj uređuje se posebnim propisima, a u pruženom materijalu nije dostupan odgovarajući članak koji bi naveden iznos. Preporučuje se provjeriti najnovije podatke iz službenih izvora ili posebnih propisa koji uređuju minimalnu plaću.",
+          "seconds": 59.8,
+          "citations": [],
+          "invalid_citations": []
+        },
+        {
+          "run": 2,
+          "answer": "Odgovor: U danom kontekstu navedeni zakoni ne navode konkretnu iznos minimalne plaće u Republici Hrvatskoj. Zakon o radu, članak 92., regulira vremenski okvir isplate plaće, ali ne određuje minimalnu iznos plaće (čl. 92. Zakona o radu). Minimalna plaća je uređena posebnim propisima, a ne u ovim citiranim člancima.",
+          "seconds": 43.3,
+          "citations": [
+            "92"
+          ],
+          "invalid_citations": []
+        }
+      ],
+      "mistral-nemo": [
+        {
+          "run": 1,
+          "answer": "Minimalna plaća u Republici Hrvatskoj je određena Zakonom o radu. Prema članku 92. tog zakona, minimalna plaća se određuje kolektivnim ugovorom ili ugovorom o radu. Ako nije drukčije određeno u kolektivnom ugovoru ili ugovoru o radu, minimalna plaća ne smije biti niža od minimalne plaće koja je određena Zakonom o radu za isti obrt ili djelatnost.",
+          "seconds": 32.6,
+          "citations": [
+            "92"
+          ],
+          "invalid_citations": []
+        },
+        {
+          "run": 2,
+          "answer": "Minimalna plaća u Republici Hrvatskoj je određena Zakonom o radu. Prema članku 92. tog zakona, minimalna plaća se određuje kolektivnim ugovorom ili ugovorom o radu. Ako nije drukčije određeno u kolektivnom ugovoru ili ugovoru o radu, minimalna plaća ne smije biti niža od minimalne plaće koja je određena Zakonom o radu za isti obrt ili djelatnost.",
+          "seconds": 12.1,
+          "citations": [
+            "92"
+          ],
+          "invalid_citations": []
+        }
+      ]
+    }
+  },
+  {
+    "type": "E",
+    "question": "Kada radnica ima pravo na rodiljni dopust?",
+    "expected_article": null,
+    "retrieved_articles": [
+      "36",
+      "35",
+      "34",
+      "86",
+      "32"
+    ],
+    "answers": {
+      "gemma3:12b": [
+        {
+          "run": 1,
+          "answer": "Radnica ima pravo na rodiljni, roditeljski i posvojiteljski dopust, rad s polovicom punog radnog vremena, rad s polovicom punog radnog vremena radi pojačane njege djeteta, dopust trudnice ili majke koja doji dijete, te dopust ili rad s polovicom punog radnog vremena radi brige i njege djeteta s težim smetnjama u razvoju ili kojem ugovor o radu miruje do treće godine života djeteta (čl. 35. st. 1. Zakona o radu).",
+          "seconds": 34.9,
+          "citations": [
+            "35"
+          ],
+          "invalid_citations": []
+        },
+        {
+          "run": 2,
+          "answer": "Radnica može koristiti pravo na rodiljni, roditeljski i posvojiteljski dopust, rad s polovicom punog radnog vremena, rad s polovicom punog radnog vremena radi pojačane njege djeteta, dopust trudnice ili majke koja doji dijete, te dopust ili rad s polovicom punog radnog vremena radi brige i njege djeteta s težim smetnjama u razvoju ili kojem ugovor o radu miruje do treće godine života djeteta (čl. 35. st. 1. Zakona o radu).",
+          "seconds": 16.2,
+          "citations": [
+            "35"
+          ],
+          "invalid_citations": []
+        }
+      ],
+      "qwen3:8b": [
+        {
+          "run": 1,
+          "answer": "Radnica ima pravo na rodiljni dopust u skladu s člankom 34. i člankom 86. Zakona o radu. Prema čl. 34. st. 1., za vrijeme trudnoće, rodiljnog dopusta i drugih prava iz stavka 1. ovog članka, poslodavac ne smije otkazati ugovor o radu. Prema čl. 86. st. 1., radnik ima pravo na plaćeni dopust za važne osobne potrebe, uključujući i rođenje djeteta.",
+          "seconds": 54.3,
+          "citations": [
+            "34",
+            "86"
+          ],
+          "invalid_citations": []
+        },
+        {
+          "run": 2,
+          "answer": "Radnica ima pravo na rodiljni dopust u sklopu plaćenog dopusta za važne osobne potrebe, posebno u vezi sa rođenjem djeteta (čl. 86. st. 1. Zakona o radu). Ukupno je moguće izkoristiti sedam radnih dana godišnje za takve potrebe, osim ako je to drukčije uređeno kolektivnim ugovorom, pravilnikom o radu ili ugovorom o radu (čl. 86. st. 2. Zakona o radu).",
+          "seconds": 40.5,
+          "citations": [
+            "86"
+          ],
+          "invalid_citations": []
+        }
+      ],
+      "mistral-nemo": [
+        {
+          "run": 1,
+          "answer": "Radnica ima pravo na rodiljski dopust za vrijeme trudnoće, nakon poroda ili usvajanja djeteta. To pravo traje najmanje 140 dana, a može se produžiti do najviše 260 dana u slučaju višedijeteće trudnoće ili usvajanja više od jednog djeteta (čl. 35. Zakona o radu).",
+          "seconds": 22.1,
+          "citations": [
+            "35"
+          ],
+          "invalid_citations": []
+        },
+        {
+          "run": 2,
+          "answer": "Radnica ima pravo na rodiljnog dopusta za vrijeme trudnoće, nakon porođaja ili posvojila djeteta. Trajanje rodiljnog dopusta je najmanje 15 dana, a može se produžiti do najviše 365 dana uz odobrenje poslodavca (čl. 28. Zakona o radu).",
+          "seconds": 9.1,
+          "citations": [
+            "28"
+          ],
+          "invalid_citations": [
+            "28"
+          ]
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,62 @@
+services:
+  db:
+    image: pgvector/pgvector:pg16
+    container_name: legalrag-db
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-legalrag}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-legalrag}
+      POSTGRES_DB: ${POSTGRES_DB:-legalrag}
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./db/init.sql:/docker-entrypoint-initdb.d/init.sql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-legalrag}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  backend:
+    build: ./backend
+    container_name: legalrag-backend
+    environment:
+      DATABASE_URL: postgresql+psycopg://${POSTGRES_USER:-legalrag}:${POSTGRES_PASSWORD:-legalrag}@db:5432/${POSTGRES_DB:-legalrag}
+      EMBEDDING_MODEL: ${EMBEDDING_MODEL:-sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2}
+      EMBEDDING_DIM: ${EMBEDDING_DIM:-384}
+      LLM_BASE_URL: ${LLM_BASE_URL:-http://ollama:11434/v1}
+      LLM_MODEL: ${LLM_MODEL:-llama3.1}
+      LLM_API_KEY: ${LLM_API_KEY:-}
+      CORS_ORIGINS: ${CORS_ORIGINS:-http://localhost:5173,http://localhost:3000}
+    ports:
+      - "8000:8000"
+    depends_on:
+      db:
+        condition: service_healthy
+    volumes:
+      - hf_cache:/root/.cache/huggingface
+
+  frontend:
+    build: ./frontend
+    container_name: legalrag-frontend
+    ports:
+      - "5173:5173"
+    environment:
+      VITE_API_URL: ${VITE_API_URL:-http://localhost:8000}
+    depends_on:
+      - backend
+
+  # Lokalni LLM preko Ollame (opcionalno — može se koristiti i vanjski
+  # OpenAI-kompatibilan API postavljanjem LLM_BASE_URL i LLM_API_KEY u .env)
+  ollama:
+    image: ollama/ollama:latest
+    container_name: legalrag-ollama
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_models:/root/.ollama
+
+volumes:
+  pgdata:
+  hf_cache:
+  ollama_models:

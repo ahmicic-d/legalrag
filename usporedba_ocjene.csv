@@ -1,0 +1,91 @@
+br,tip,pitanje,model,prolaz,tocnost_0_2,utemeljenost_0_2,citiranje_0_2,potpunost_0_2,napomena,auto_citirano,auto_izvan_konteksta,auto_sekundi
+1,A,Što je otpremnina i kada radnik na nju ima pravo?,gemma3:12b,1,,,,,,126,,64.1
+1,A,Što je otpremnina i kada radnik na nju ima pravo?,gemma3:12b,2,,,,,,126,,14.3
+1,A,Što je otpremnina i kada radnik na nju ima pravo?,qwen3:8b,1,,,,,,126,,83.3
+1,A,Što je otpremnina i kada radnik na nju ima pravo?,qwen3:8b,2,,,,,,126,,50.1
+1,A,Što je otpremnina i kada radnik na nju ima pravo?,mistral-nemo,1,,,,,,126,,56.6
+1,A,Što je otpremnina i kada radnik na nju ima pravo?,mistral-nemo,2,,,,,,126,,32.0
+2,A,Što je izvanredni otkaz ugovora o radu?,gemma3:12b,1,,,,,,116,,41.3
+2,A,Što je izvanredni otkaz ugovora o radu?,gemma3:12b,2,,,,,,116,,18.3
+2,A,Što je izvanredni otkaz ugovora o radu?,qwen3:8b,1,,,,,,47 113 116,113,66.1
+2,A,Što je izvanredni otkaz ugovora o radu?,qwen3:8b,2,,,,,,47 115 116,,55.2
+2,A,Što je izvanredni otkaz ugovora o radu?,mistral-nemo,1,,,,,,116,,22.6
+2,A,Što je izvanredni otkaz ugovora o radu?,mistral-nemo,2,,,,,,116,,19.2
+3,A,Što je nepuno radno vrijeme?,gemma3:12b,1,,,,,,62,,36.7
+3,A,Što je nepuno radno vrijeme?,gemma3:12b,2,,,,,,62,,10.7
+3,A,Što je nepuno radno vrijeme?,qwen3:8b,1,,,,,,61 62,,58.5
+3,A,Što je nepuno radno vrijeme?,qwen3:8b,2,,,,,,61 62,,48.2
+3,A,Što je nepuno radno vrijeme?,mistral-nemo,1,,,,,,62,,22.4
+3,A,Što je nepuno radno vrijeme?,mistral-nemo,2,,,,,,62,,8.5
+4,B,Moram li raditi duže ako mi to poslodavac naredi?,gemma3:12b,1,,,,,,65,,44.4
+4,B,Moram li raditi duže ako mi to poslodavac naredi?,gemma3:12b,2,,,,,,65,,21.6
+4,B,Moram li raditi duže ako mi to poslodavac naredi?,qwen3:8b,1,,,,,,61 62 65,,68.3
+4,B,Moram li raditi duže ako mi to poslodavac naredi?,qwen3:8b,2,,,,,,65,,58.6
+4,B,Moram li raditi duže ako mi to poslodavac naredi?,mistral-nemo,1,,,,,,65,,33.0
+4,B,Moram li raditi duže ako mi to poslodavac naredi?,mistral-nemo,2,,,,,,65,,14.2
+5,B,Kada mi poslodavac mora isplatiti plaću?,gemma3:12b,1,,,,,,92 93,,36.3
+5,B,Kada mi poslodavac mora isplatiti plaću?,gemma3:12b,2,,,,,,92 93,,16.4
+5,B,Kada mi poslodavac mora isplatiti plaću?,qwen3:8b,1,,,,,,92,,52.1
+5,B,Kada mi poslodavac mora isplatiti plaću?,qwen3:8b,2,,,,,,92,,30.5
+5,B,Kada mi poslodavac mora isplatiti plaću?,mistral-nemo,1,,,,,,92,,26.1
+5,B,Kada mi poslodavac mora isplatiti plaću?,mistral-nemo,2,,,,,,93,,7.6
+6,B,Smije li me poslodavac ne zaposliti zato što sam trudna?,gemma3:12b,1,,,,,,30,,36.9
+6,B,Smije li me poslodavac ne zaposliti zato što sam trudna?,gemma3:12b,2,,,,,,30,,13.1
+6,B,Smije li me poslodavac ne zaposliti zato što sam trudna?,qwen3:8b,1,,,,,,30 229,,45.0
+6,B,Smije li me poslodavac ne zaposliti zato što sam trudna?,qwen3:8b,2,,,,,,30 34,,33.7
+6,B,Smije li me poslodavac ne zaposliti zato što sam trudna?,mistral-nemo,1,,,,,,30,,24.9
+6,B,Smije li me poslodavac ne zaposliti zato što sam trudna?,mistral-nemo,2,,,,,,30,,13.2
+7,B,Što se događa ako sud utvrdi da mi otkaz nije bio zakonit?,gemma3:12b,1,,,,,,124 125,,47.2
+7,B,Što se događa ako sud utvrdi da mi otkaz nije bio zakonit?,gemma3:12b,2,,,,,,35 124,35,18.9
+7,B,Što se događa ako sud utvrdi da mi otkaz nije bio zakonit?,qwen3:8b,1,,,,,,124 125,,49.1
+7,B,Što se događa ako sud utvrdi da mi otkaz nije bio zakonit?,qwen3:8b,2,,,,,,124 125 150,,33.3
+7,B,Što se događa ako sud utvrdi da mi otkaz nije bio zakonit?,mistral-nemo,1,,,,,,124 150,,33.6
+7,B,Što se događa ako sud utvrdi da mi otkaz nije bio zakonit?,mistral-nemo,2,,,,,,125,,15.1
+8,C,Koliko dana godišnjeg odmora ima radnik?,gemma3:12b,1,,,,,,77,,43.2
+8,C,Koliko dana godišnjeg odmora ima radnik?,gemma3:12b,2,,,,,,77,,19.2
+8,C,Koliko dana godišnjeg odmora ima radnik?,qwen3:8b,1,,,,,,77 79,,54.6
+8,C,Koliko dana godišnjeg odmora ima radnik?,qwen3:8b,2,,,,,,77,,52.5
+8,C,Koliko dana godišnjeg odmora ima radnik?,mistral-nemo,1,,,,,,77,,14.3
+8,C,Koliko dana godišnjeg odmora ima radnik?,mistral-nemo,2,,,,,,77,,4.2
+9,C,Koliko traje otkazni rok?,gemma3:12b,1,,,,,,122,,48.2
+9,C,Koliko traje otkazni rok?,gemma3:12b,2,,,,,,53 122,,30.1
+9,C,Koliko traje otkazni rok?,qwen3:8b,1,,,,,,53 122,,96.3
+9,C,Koliko traje otkazni rok?,qwen3:8b,2,,,,,,122,,60.3
+9,C,Koliko traje otkazni rok?,mistral-nemo,1,,,,,,122,,33.4
+9,C,Koliko traje otkazni rok?,mistral-nemo,2,,,,,,122,,21.0
+10,C,Ima li radnik pravo na stanku tijekom radnog dana?,gemma3:12b,1,,,,,,73,,33.1
+10,C,Ima li radnik pravo na stanku tijekom radnog dana?,gemma3:12b,2,,,,,,73,,12.9
+10,C,Ima li radnik pravo na stanku tijekom radnog dana?,qwen3:8b,1,,,,,,73,,62.6
+10,C,Ima li radnik pravo na stanku tijekom radnog dana?,qwen3:8b,2,,,,,,73,,35.7
+10,C,Ima li radnik pravo na stanku tijekom radnog dana?,mistral-nemo,1,,,,,,73,,23.4
+10,C,Ima li radnik pravo na stanku tijekom radnog dana?,mistral-nemo,2,,,,,,73,,7.7
+11,C,Kolika je naknada plaće za vrijeme godišnjeg odmora?,gemma3:12b,1,,,,,,81,,24.9
+11,C,Kolika je naknada plaće za vrijeme godišnjeg odmora?,gemma3:12b,2,,,,,,81,,9.3
+11,C,Kolika je naknada plaće za vrijeme godišnjeg odmora?,qwen3:8b,1,,,,,,80 81,,39.6
+11,C,Kolika je naknada plaće za vrijeme godišnjeg odmora?,qwen3:8b,2,,,,,,80 81,,33.0
+11,C,Kolika je naknada plaće za vrijeme godišnjeg odmora?,mistral-nemo,1,,,,,,81,,14.4
+11,C,Kolika je naknada plaće za vrijeme godišnjeg odmora?,mistral-nemo,2,,,,,,81,,8.4
+12,D,Koje obveze ima poslodavac prije donošenja odluke o poslovno uvjetovanom otkazu?,gemma3:12b,1,,,,,,,,0.7
+12,D,Koje obveze ima poslodavac prije donošenja odluke o poslovno uvjetovanom otkazu?,gemma3:12b,2,,,,,,115 127,,55.3
+12,D,Koje obveze ima poslodavac prije donošenja odluke o poslovno uvjetovanom otkazu?,qwen3:8b,1,,,,,,115 127,,84.2
+12,D,Koje obveze ima poslodavac prije donošenja odluke o poslovno uvjetovanom otkazu?,qwen3:8b,2,,,,,,115 127,,35.9
+12,D,Koje obveze ima poslodavac prije donošenja odluke o poslovno uvjetovanom otkazu?,mistral-nemo,1,,,,,,115,,22.8
+12,D,Koje obveze ima poslodavac prije donošenja odluke o poslovno uvjetovanom otkazu?,mistral-nemo,2,,,,,,115,,7.6
+13,D,Što mora sadržavati ugovor o radu i u kojem obliku se sklapa?,gemma3:12b,1,,,,,,14 15,,59.6
+13,D,Što mora sadržavati ugovor o radu i u kojem obliku se sklapa?,gemma3:12b,2,,,,,,14 15,,35.4
+13,D,Što mora sadržavati ugovor o radu i u kojem obliku se sklapa?,qwen3:8b,1,,,,,,14 15,,107.6
+13,D,Što mora sadržavati ugovor o radu i u kojem obliku se sklapa?,qwen3:8b,2,,,,,,14 15 16 46,,109.1
+13,D,Što mora sadržavati ugovor o radu i u kojem obliku se sklapa?,mistral-nemo,1,,,,,,,,62.7
+13,D,Što mora sadržavati ugovor o radu i u kojem obliku se sklapa?,mistral-nemo,2,,,,,,15,,29.2
+14,E,Koliko iznosi minimalna plaća u Republici Hrvatskoj?,gemma3:12b,1,,,,,,,,47.6
+14,E,Koliko iznosi minimalna plaća u Republici Hrvatskoj?,gemma3:12b,2,,,,,,,,10.4
+14,E,Koliko iznosi minimalna plaća u Republici Hrvatskoj?,qwen3:8b,1,,,,,,,,59.8
+14,E,Koliko iznosi minimalna plaća u Republici Hrvatskoj?,qwen3:8b,2,,,,,,92,,43.3
+14,E,Koliko iznosi minimalna plaća u Republici Hrvatskoj?,mistral-nemo,1,,,,,,92,,32.6
+14,E,Koliko iznosi minimalna plaća u Republici Hrvatskoj?,mistral-nemo,2,,,,,,92,,12.1
+15,E,Kada radnica ima pravo na rodiljni dopust?,gemma3:12b,1,,,,,,35,,34.9
+15,E,Kada radnica ima pravo na rodiljni dopust?,gemma3:12b,2,,,,,,35,,16.2
+15,E,Kada radnica ima pravo na rodiljni dopust?,qwen3:8b,1,,,,,,34 86,,54.3
+15,E,Kada radnica ima pravo na rodiljni dopust?,qwen3:8b,2,,,,,,86,,40.5
+15,E,Kada radnica ima pravo na rodiljni dopust?,mistral-nemo,1,,,,,,35,,22.1
+15,E,Kada radnica ima pravo na rodiljni dopust?,mistral-nemo,2,,,,,,28,28,9.1
